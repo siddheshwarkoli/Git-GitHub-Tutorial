@@ -1,0 +1,18 @@
+------------------------------- Git And GitHub --------------------------------------
+
+What is Git
+>> Version Control System is a tool that helps to track changes in code
+	- It is Popular 
+	- It is Free & open source
+	- Fast and scalabel
+
+
+Why Git ?
+>> To track the history
+>> To COllabrate
+
+
+What is GitHub
+>> It is a website that allows developer to store and manage their code using Git.
+    Link - https://github.com
+    
