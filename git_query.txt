@@ -1,0 +1,6 @@
+cd repo name
+git status
+git add .
+git status
+git commit -m "commit"
+git push origin main
