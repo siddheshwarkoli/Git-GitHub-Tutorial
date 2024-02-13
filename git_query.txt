@@ -1,6 +1,0 @@
-git clone link           // Creates a clone in local device 
-cd repo name             // redirect to specific folder
-git status               // check the status of folder
-git add .                // Add all files to the Git Hub
-git commit -m "commit"     
-git push origin main     // Push the file to Git Hub
