@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+h1{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+h2 {
+    color: blueviolet;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+th{
+    color: black;
+    font-size: medium;
+}
+
+  
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: purple;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
