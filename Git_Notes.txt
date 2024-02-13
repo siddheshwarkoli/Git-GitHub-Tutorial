@@ -50,64 +50,67 @@ Basic Commands of Git
 			- Command >> "git status"
 
 	>>	Symbols
-	>> Modified (M)
-				File is modified. Changes not staged for commit
+		Modified (M) ->
+			- File is modified. Changes not staged for commit
 
-			>> Untracked (U)
-			  	Untracked file. New file that git dosen't yet track
+		Untracked (U) ->
+			- Untracked file. New file that git dosen't yet track
 
-			>> Staged ()
-				File is ready to be commited
+		Staged () ->
+			- File is ready to be commited
 
-			>> Unmodified ()
-				Unmodified File
+		Unmodified () ->
+			- Unmodified File
 
->> Add & commit
-	Add - Adds new or changed files in your working directory to the Git staging area.
-		>> git add <-File name->  // Add single file to github
-		>> git add .  // Add all files to GitHub
+	>>	Add & commit
+		Add ->
+			- Adds new or changed files in your working directory to the Git staging area.
+			- git add <-File name->  // Add single file to github
+			- git add .  // Add all files to GitHub
 
-	Commit - It is the record of changes
-		>> git commit -m "Some Message"
+		Commit ->
+			- It is the record of changes
+			- git commit -m "Some Message"
 	
->> Push Command
-	Push - Upload local repo content to remote repo
-		>> git push origin main  //File will push to remote repo after using this command
+	>> Push Command
+		Push ->
+			- Upload local repo content to remote repo
+			- git push origin main  //File will push to remote repo after using this command
 				// origin - it is one a ropo in github 
 				// main - it is a one branch of repo
+			- git push -u origin main  // It sets upstream (it sets origin as a default reop)
 
-		>> git push -u origin main  // It sets upstream (it sets origin as a default reop)
+	>> Init Command
+		Init ->
+			- Used to create a new repo
+			- git Init	//Create a repo
+			- git remote add origin <-link->	//  add new remote repo and assign the name as origin
+			- git remote -v		// to verify remote
+			- git branch		// to check branch (by default it is master branch)
+			- git branch -m main		// to rename branch (changes the branch name to main)
+			- git push origin main		// push to remote repo
 
->> Init Command
-	Init - Used to create a new repo
-		>> git Init  //Create a repo
-		>> git remote add origin <-link->  //  add new remote repo and assign the name as origin
-		>> git remote -v   // to verify remote
-		>> git branch      // to check branch (by default it is master branch)
-		>> git branch -m main  // to rename branch (changes the branch name to main)
-		>> git push origin main // push to remote repo
-
->> WorkFlow
-	Local Git
+	>> WorkFlow
+		Local Git ->
 						GitHub repo
 							|
-						  Clone
-						    |
-						 Changes
-						 	|
-						   Add
-						   	|
-						  Commit
-						  	|
-						   Push
+							Clone
+							|
+							Changes
+							|
+							Add
+							|
+							Commit
+							|
+							Push
 
->> Git Branches 
-	Branch Commands
-		>> git branch 								// to check branch 
-		>> git branch -m main           			// to rename branch
-		>> git checkout <- branch name ->          // to nevigate (to change from one branch to another branch)
-		>> git checkout -b <-new branch name->     // to create new branch 
-		>> git branch -d <-branch name->  		   // to delete branch 
+	>> Git Branches 
+		Branch Commands ->
+			- git branch			// to check branch 
+			- git branch -m main			// to rename branch
+			- git checkout <- branch name ->			// to nevigate (to change from one branch to another branch)
+			- git checkout -b <-new branch name->			// to create new branch 
+			- git branch -d <-branch name->			// to delete branch 
 
 >> Merging Code 
 	Way 1
