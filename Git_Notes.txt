@@ -148,8 +148,14 @@ Basic Commands of Git
 		Case 2 -> Commited changes (for one commit)	// Changes made and used add as well as commit command
 			- git reset HEAD~1	// HEAD is nothing but a commit made and '1' is for most recent commit
 			- git log	// it shows all the commits 
+			- Use 'Q' to Quit
 
 		Case 3 -> Commited changes (for many commits)	// Changes made and used add as well as commit command 
-			- git reset <- commit hash ->
-			- git reset --hard <- Commit hash ->
+			- git reset <- commit hash ->	// Hash is nothing but the description of commit 
+			- git reset --hard <- Commit hash ->	// Hard changes in both local as well as in remot 
+		
+
+	>>	Fork
+			- A fork is a new repository that shares code and visibility setting with the original "upstream" repository.
+			- Fork is a rough copy.
 			
