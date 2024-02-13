@@ -1,53 +1,56 @@
 ------------------------------- Git And GitHub --------------------------------------
 
 What is Git
->> Version Control System is a tool that helps to track changes in code
-	- It is Popular 
-	- It is Free & open source
-	- Fast and scalabel
+	>> Version Control System is a tool that helps to track changes in code
+		- It is Popular 
+		- It is Free & open source
+		- Fast and scalabel
 
 
 Why Git ?
->> To track the history
->> To COllabrate
+	>> To track the history
+	>> To COllabrate
 
 
 What is GitHub
->> It is a website that allows developer to store and manage their code using Git.
-    Link - https://github.com
+	>>	It is a website that allows developer to store and manage their code using Git.
+   		Link - https://github.com
 
 
 Setting up Git
->>  Install Visual Studio COde (For Both Windows and Mac)
-	For Windows download Git Bash
-	For Mac download Terminal
-	To Verify git is properly working or not use "git --version" command on CMD
+	>> 	Install Visual Studio COde (For Both Windows and Mac)
+		- For Windows download Git Bash
+		- For Mac download Terminal
+		- To Verify git is properly working or not use "git --version" command on CMD
 
 
 Configuring Git
-Remote == GitHub
-Local == Laptop/PC
->>	git config --global user.name "My Name"  //Sets the User Name to the GitHub account
-	git config --global user.email "someone@gmail.com"  //Sets the Email to the GitHub account
-	git config --list  //Show the list of all details 
+	>>	Remote == GitHub
+	>>	Local == Laptop/PC
+		- git config --global user.name "My Name"  //Sets the User Name to the GitHub account
+		- git config --global user.email "someone@gmail.com"  //Sets the Email to the GitHub account
+		- git config --list  //Show the list of all details 
 
 
 Basic Commands of Git
->> Clone & status
-	clone - Cloning a repository on our local Machine
-			command >> "git clone <link of repository>"
-			open github repo and click on code and copy the link and use that link in above command 
-			Use "CD" Command to chande the directory (Use tab for auto-complete)
-			Use "CD .." Command to come out of directory
-			USe "mkdir <-Folder name->" to create a folder 
-			Use "ls" command to open the all files in repo
-			Use "ls -a" command to open the hidden files in repo (It will show all files)
-			Use "clear" command to clear the terminal
+	>>	Clone & status
+		Clone ->
+			- Cloning a repository on our local Machine
+			- Command >> "git clone <link of repository>"
+			- Open github repo and click on code and copy the link and use that link in above command 
+			- Use "CD" Command to chande the directory (Use tab for auto-complete)
+			- Use "CD .." Command to come out of directory
+			- USe "mkdir <-Folder name->" to create a folder 
+			- Use "ls" command to open the all files in repo
+			- Use "ls -a" command to open the hidden files in repo (It will show all files)
+			- Use "clear" command to clear the terminal
 
-	Status - Display the status of the Code (Check the code in local as well as in remote)
-			 command >> "git status"
+		Status ->
+			- Display the status of the Code (Check the code in local as well as in remote)
+			- Command >> "git status"
 
-	Symbols >> Modified (M)
+	>>	Symbols
+	>> Modified (M)
 				File is modified. Changes not staged for commit
 
 			>> Untracked (U)
