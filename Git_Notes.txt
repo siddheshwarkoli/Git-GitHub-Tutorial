@@ -15,4 +15,87 @@ Why Git ?
 What is GitHub
 >> It is a website that allows developer to store and manage their code using Git.
     Link - https://github.com
-    
+
+
+Setting up Git
+>>  Install Visual Studio COde (For Both Windows and Mac)
+	For Windows download Git Bash
+	For Mac download Terminal
+	To Verify git is properly working or not use "git --version" command on CMD
+
+
+Configuring Git
+Remote == GitHub
+Local == Laptop/PC
+>>	git config --global user.name "My Name"  //Sets the User Name to the GitHub account
+	git config --global user.email "someone@gmail.com"  //Sets the Email to the GitHub account
+	git config --list  //Show the list of all details 
+
+
+Basic Commands of Git
+>> Clone & status
+	clone - Cloning a repository on our local Machine
+			command >> "git clone <link of repository>"
+			open github repo and click on code and copy the link and use that link in above command 
+			Use "CD" Command to chande the directory (Use tab for auto-complete)
+			Use "CD .." Command to come out of directory
+			USe "mkdir <-Folder name->" to create a folder 
+			Use "ls" command to open the all files in repo
+			Use "ls -a" command to open the hidden files in repo (It will show all files)
+			Use "clear" command to clear the terminal
+
+	Status - Display the status of the Code (Check the code in local as well as in remote)
+			 command >> "git status"
+
+	Symbols >> Modified (M)
+				File is modified. Changes not staged for commit
+
+			>> Untracked (U)
+			  	Untracked file. New file that git dosen't yet track
+
+			>> Staged ()
+				File is ready to be commited
+
+			>> Unmodified ()
+				Unmodified File
+
+>> Add & commit
+	Add - Adds new or changed files in your working directory to the Git staging area.
+		>> git add <-File name->  // Add single file to github
+		>> git add .  // Add all files to GitHub
+
+	Commit - It is the record of changes
+		>> git commit -m "Some Message"
+	
+>> Push Command
+	Push - Upload local repo content to remote repo
+		>> git push origin main  //File will push to remote repo after using this command
+				// origin - it is one a ropo in github 
+				// main - it is a one branch of repo
+
+		>> git push -u origin main  // It sets upstream (it sets origin as a default reop)
+
+>> Init Command
+	Init - Used to create a new repo
+		>> git Init  //Create a repo
+		>> git remote add origin <-link->  //  add new remote repo and assign the name as origin
+		>> git remote -v   // to verify remote
+		>> git branch      // to check branch (by default it is master branch)
+		>> git branch -m main  // to rename branch (changes the branch name to main)
+		>> git push origin main // push to remote repo
+
+>> WorkFlow
+		Local Git
+						GitHub repo
+							|
+						  Clone
+						    |
+						 Changes
+						 	|
+						   Add
+						   	|
+						  Commit
+						  	|
+						   Push
+
+>> Git Branches
