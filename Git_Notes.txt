@@ -33,6 +33,7 @@ Configuring Git
 
 
 Basic Commands of Git
+
 	>>	Clone & status
 		Clone ->
 			- Cloning a repository on our local Machine
@@ -49,6 +50,7 @@ Basic Commands of Git
 			- Display the status of the Code (Check the code in local as well as in remote)
 			- Command >> "git status"
 
+
 	>>	Symbols
 		Modified (M) ->
 			- File is modified. Changes not staged for commit
@@ -62,6 +64,7 @@ Basic Commands of Git
 		Unmodified () ->
 			- Unmodified File
 
+
 	>>	Add & commit
 		Add ->
 			- Adds new or changed files in your working directory to the Git staging area.
@@ -72,6 +75,7 @@ Basic Commands of Git
 			- It is the record of changes
 			- git commit -m "Some Message"
 	
+
 	>> Push Command
 		Push ->
 			- Upload local repo content to remote repo
@@ -79,6 +83,7 @@ Basic Commands of Git
 				// origin - it is one a ropo in github 
 				// main - it is a one branch of repo
 			- git push -u origin main  // It sets upstream (it sets origin as a default reop)
+
 
 	>> Init Command
 		Init ->
@@ -89,6 +94,7 @@ Basic Commands of Git
 			- git branch		// to check branch (by default it is master branch)
 			- git branch -m main		// to rename branch (changes the branch name to main)
 			- git push origin main		// push to remote repo
+
 
 	>> WorkFlow
 		Local Git ->
@@ -104,26 +110,30 @@ Basic Commands of Git
 							|
 							Push
 
+
 	>> Git Branches 
 		Branch Commands ->
-			- git branch			// to check branch 
-			- git branch -m main			// to rename branch
-			- git checkout <- branch name ->			// to nevigate (to change from one branch to another branch)
-			- git checkout -b <-new branch name->			// to create new branch 
-			- git branch -d <-branch name->			// to delete branch 
+			- git branch	// to check branch 
+			- git branch -m main	// to rename branch
+			- git checkout <- branch name ->	// to nevigate (to change from one branch to another branch)
+			- git checkout -b <-new branch name->	// to create new branch 
+			- git branch -d <-branch name->	// to delete branch 
 
->> Merging Code 
-	Way 1
-		>> git diff <- branch name ->     // to compare commits,branches,files and more
-		>> git merge <- branch name ->    // to merge 2 branches
 
-	Way 2
-		Create a PR (Pull Request)
-			>> It lets you tell others about changes you have pushed to a branch in a repository on GitHub.
+	>> Merging Code 
+		Way 1
+			- git diff <- branch name ->     // to compare commits,branches,files and more
+			- git merge <- branch name ->    // to merge 2 branches
 
->> Pull Command
-	Pull - Upload remote repo content to local repo
-		>> git pull origin main   // used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+		Way 2
+			- Create a PR (Pull Request)
+			- It lets you tell others about changes you have pushed to a branch in a repository on GitHub.
+
+
+	>> Pull Command
+		Pull ->
+			- Upload remote repo content to local repo
+			- git pull origin main   // used to fetch and download content from a remote repo and immediately update the local repo to match that content.
 		 
 
->> Resolving Merge Conflicts 
+	>> Resolving Merge Conflicts 
