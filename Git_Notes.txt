@@ -1,4 +1,4 @@
-------------------------------- Git And GitHub --------------------------------------
+------------------------------------------------------ * Git And GitHub * ------------------------------------------------------
 
 What is Git
 	>> Version Control System is a tool that helps to track changes in code
@@ -158,4 +158,9 @@ Basic Commands of Git
 	>>	Fork
 			- A fork is a new repository that shares code and visibility setting with the original "upstream" repository.
 			- Fork is a rough copy.
-			
+			- Fork is nothing but copy of other accout repo in your account
+
+
+------------------------------------------------- Author ->> Siddheshwar Koli ------------------------------------------------
+
+------------------------------------------------------ * End Of Notes * ------------------------------------------------------
